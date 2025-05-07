@@ -1,3 +1,5 @@
+## Setup for Basic RAG
+
 Start with a simple RAG pipeline -
 
 1. Indexing - create fixed sized chunks (1000 tokens), and a fixed size sliding window (200 tokens).
@@ -9,3 +11,16 @@ This setups a pretty basic RAG application.
 
 The task is to enhance each step in the pipeline.
 
+## Enhancements
+
+### 1.0 Better Chunking
+
+### 2.0 Better Embeddings
+One time cost, we might be able to use a better embedding model. 
+
+### 3.0 Look into Hybrid Retrieval
+
+### 3.1 Reranking
+
+### 4.0 Generation
+Look at better prompt strategies.
